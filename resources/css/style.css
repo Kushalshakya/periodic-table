@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+#periodic_table {
+  width: 90%;
+  margin: auto;
+}
+#periodic_table h1 {
+  font-size: 32px;
+}
+#periodic_table .search-box {
+  width: 80%;
+  margin: auto;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+#periodic_table .search-box input {
+  width: 100%;
+  outline: none;
+}
+#periodic_table .search-box i:hover {
+  cursor: pointer;
+}
+#periodic_table .periodic_table_box {
+  margin: 15px 0;
+  background-color: #fff;
+  width: 100%;
+  height: auto;
+  padding: 10px;
+}
+#periodic_table .periodic_table_box table, #periodic_table .periodic_table_box tr, #periodic_table .periodic_table_box td {
+  border-collapse: collapse;
+}
+#periodic_table .periodic_table_box .table_border {
+  border: 1px solid black;
+}
+#periodic_table .periodic_table_box .table_border:hover {
+  cursor: pointer;
+}
+#periodic_table .periodic_table_box table {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+#periodic_table .periodic_table_box table tr td {
+  text-align: center;
+  width: 60px;
+  height: 60px;
+  font-size: 20px;
+}
+#periodic_table .search-content {
+  margin: 15px 0;
+  border-radius: 4px;
+  background-color: #fff;
+  height: auto;
+  display: none;
+  padding: 0 0 15px 0;
+}
+#periodic_table .search-content .no_result {
+  display: none;
+}
+#periodic_table .search-content .search-content-wrap {
+  width: 95%;
+  margin: auto;
+}
+#periodic_table .search-content .no-result {
+  text-align: center;
+  padding: 20px 0;
+}
+#periodic_table .search-content .main-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#periodic_table .search-content .main-content h1 {
+  font-size: 36px;
+  text-transform: capitalize;
+}
+#periodic_table .search-content .main-content i {
+  font-size: 40px;
+  cursor: pointer;
+}
+#periodic_table .search-content .main-content .main-right {
+  margin: 10px 0;
+}
+#periodic_table .search-content .spectral_img {
+  width: 100%;
+  margin: 10px 0;
+}
+#periodic_table .definition label {
+  font-size: 18px;
+}
+#periodic_table .definition p {
+  text-align: justify;
+}
+#periodic_table .definition table {
+  margin: 20px 0;
+}
+#periodic_table .definition table, #periodic_table .definition tr, #periodic_table .definition th, #periodic_table .definition td {
+  border-collapse: collapse;
+  border: 2px solid #000;
+}
+#periodic_table .definition th {
+  min-width: 90%;
+  width: fit-content;
+  padding: 4px 6px;
+}
+#periodic_table .definition td {
+  padding: 4px 6px;
+}
+
+/*# sourceMappingURL=style.css.map */

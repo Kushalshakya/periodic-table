@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+#periodic_table{
+    width: 90%;
+    margin: auto;
+    h1{
+        font-size: 32px;
+    }
+    .search-box{
+        width: 80%;
+        margin: auto;
+        background-color: #fff;
+        border: 1px solid rgba(0,0,0,0.3);
+        box-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        input{
+            width: 100%;
+            outline: none;
+        }
+        i:hover{
+            cursor: pointer;
+        }
+    }
+
+    .periodic_table_box{
+        margin: 15px 0;
+        background-color: #fff;
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        table,tr,td{
+            border-collapse: collapse;
+        }
+        .table_border{
+            border: 1px solid black;
+        }
+        .table_border:hover{
+            cursor: pointer;
+        }
+        table{
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+            tr{
+                td{
+                    text-align: center;
+                    width: 60px;
+                    height: 60px;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+
+    .search-content{
+        margin: 15px 0;
+        border-radius: 4px;
+        background-color: #fff;
+        height: auto;
+        display: none;
+        padding: 0 0 15px 0;
+        .no_result{
+            display: none;
+        }
+        .search-content-wrap{
+            width: 95%;
+            margin: auto;
+        }
+        .no-result{
+            text-align: center;
+            padding: 20px 0;
+        }
+        .main-content{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            h1{
+                font-size: 36px;
+                text-transform: capitalize;
+            }
+            i{
+                font-size: 40px;
+                cursor: pointer;
+            }
+            .main-right{
+                margin: 10px 0;
+            }
+        }
+        .spectral_img{
+            width: 100%;
+            margin: 10px 0;
+        }
+    }
+    .definition{
+        label{
+            font-size: 18px;
+        }
+        p{
+            text-align: justify;
+        }
+        table{
+            margin: 20px 0;
+        }
+        table,tr,th,td{
+            border-collapse: collapse;
+            border: 2px solid #000;
+        }
+        th{
+            min-width: 90%;
+            width: fit-content;
+            padding: 4px 6px;
+        }
+        td{
+            padding: 4px 6px;
+        }
+    }
+}

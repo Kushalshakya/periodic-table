@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Periodic Table</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./resources/style.css">
+    <link rel="shortcut icon" href="./resources/images/chemistry-logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="bg-gray-300">
+    <div id="periodic_table">
+        <h1 class="text-center py-2">Periodic Table</h1>
+        <div class="search-box flex items-center">
+            <input type="text" class="py-1 px-2" id="input-search" autocomplete="off" spellcheck="false" placeholder="Element Name or Symbol" required>
+            <i class="fa fa-search py-1 px-2" id="search-btn"></i>
+        </div>
+        <div class="search-content">
+            <p class="no_result"></p>
+            <div class="search-content-wrap">
+                <div class="main-content">
+                    <div class="main-left">
+                        <h1 class="py-2" id="title"></h1>
+                        <p class="px-2 symbol"></p>
+                    </div>
+                    <div class="main-right">
+                        <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Hexagonal.svg/100px-Hexagonal.svg.png" alt=""> -->
+                    </div>
+                </div>
+                <div class="definition px-2 py-2">
+                    <h3 class="detail"></h3>
+                    <table>
+                        <tr>
+                            <th>Atomic Mass</th>
+                            <th>Category</th>
+                            <th>Boiling Point</th>
+                            <th>Melting Point</th>
+                            <th>Density</th>
+                            <th>Appearance</th>
+                            <th>Electron Configuration</th>
+                        </tr>
+                        <tr>
+                            <td class="atomic_mass"></td>
+                            <td class="category"></td>
+                            <td class="boiling_point"></td>
+                            <td class="melting_point"></td>
+                            <td class="density"></td>
+                            <td class="appearance"></td>
+                            <td class="electron_configuration"></td>
+                        </tr>
+                    </table>
+                </div>
+                <h2 class="discovered_by">It was Discovered By</h2>
+                <h3>Spectral Image: </h3>
+                <img src="" class="spectral_img" alt="spectral_img">
+            </div>
+        </div>
+
+
+
+        <div class="periodic_table_box">
+            <table>
+                <tr>    
+                    <td class="table_border"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="table_border"></td>
+                </tr>
+                <tr>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                </tr>
+                <tr>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                </tr>
+                <tr>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                </tr>
+                <tr>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                </tr>
+                
+                <tr>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                </tr>
+                <tr>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                </tr>
+                <tr>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                    <td class="table_border"></td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+    <script src="./resources/js/App.js" defer type="text/javascript"></script>
+</body>
+</html>
