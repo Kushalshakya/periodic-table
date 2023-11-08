@@ -22,13 +22,6 @@ Before running the project, make sure you have the following dependencies instal
 2. Ensure that you have a web server set up to serve the HTML file.
 3. Open the `index.html` file in your web browser to access the Periodic Table.
 
-## Project Structure
-
-- `index.html`: The main HTML file that displays the Periodic Table.
-- `resources/style.css`: The project's CSS file for styling.
-- `resources/js/App.js`: The JavaScript file that fetches data from the API and updates the UI.
-- `resources/images/chemistry-logo.jpg`: The project's favicon.
-
 ## Usage
 
 1. Open the project in a web browser.
